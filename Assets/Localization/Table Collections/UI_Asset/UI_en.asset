@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97269afb30aa84742ae3f3342603618a, type: 3}
+  m_Name: UI_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 4cbb8a67ab58040f8922ce13a4f4e934, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 105997719822336
+    m_Localized: d9be2be5506ed4442add30be4e24b547[Language_Large_Eng]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136039925538816
+    m_Localized: cbf06c664452e4fcca3d66259ef41e8e
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136040026202112
+    m_Localized: "cbf06c664452e4fcca3d66259ef41e8e[IPix\u4E2D\u6587\u50CF\u7D20\u5B57\u4F53
+      Atlas Material]"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 201534355791872
+    m_Localized: cbf06c664452e4fcca3d66259ef41e8e
+    m_Metadata:
+      m_Items: []
+  - m_Id: 201534443872256
+    m_Localized: "cbf06c664452e4fcca3d66259ef41e8e[IPix\u4E2D\u6587\u50CF\u7D20\u5B57\u4F53
+      Atlas Material]"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 484626052145152
+    m_Localized: cbf06c664452e4fcca3d66259ef41e8e
+    m_Metadata:
+      m_Items: []
+  - m_Id: 484626203140096
+    m_Localized: "cbf06c664452e4fcca3d66259ef41e8e[IPix\u4E2D\u6587\u50CF\u7D20\u5B57\u4F53
+      Atlas Material]"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 495999217819648
+    m_Localized: cbf06c664452e4fcca3d66259ef41e8e
+    m_Metadata:
+      m_Items: []
+  - m_Id: 495999343648768
+    m_Localized: "cbf06c664452e4fcca3d66259ef41e8e[IPix\u4E2D\u6587\u50CF\u7D20\u5B57\u4F53
+      Atlas Material]"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 563922112339968
+    m_Localized: cbf06c664452e4fcca3d66259ef41e8e
+    m_Metadata:
+      m_Items: []
+  - m_Id: 563922208808960
+    m_Localized: "cbf06c664452e4fcca3d66259ef41e8e[IPix\u4E2D\u6587\u50CF\u7D20\u5B57\u4F53
+      Atlas Material]"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 563984578109440
+    m_Localized: cbf06c664452e4fcca3d66259ef41e8e
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565804960571392
+    m_Localized: cbf06c664452e4fcca3d66259ef41e8e
+    m_Metadata:
+      m_Items: []
+  - m_Id: 566138705534976
+    m_Localized: cbf06c664452e4fcca3d66259ef41e8e
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565804989931520
+    m_Localized: "cbf06c664452e4fcca3d66259ef41e8e[IPix\u4E2D\u6587\u50CF\u7D20\u5B57\u4F53
+      Atlas Material]"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 566138722312192
+    m_Localized: "cbf06c664452e4fcca3d66259ef41e8e[IPix\u4E2D\u6587\u50CF\u7D20\u5B57\u4F53
+      Atlas Material]"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 563984590692352
+    m_Localized: "cbf06c664452e4fcca3d66259ef41e8e[IPix\u4E2D\u6587\u50CF\u7D20\u5B57\u4F53
+      Atlas Material]"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

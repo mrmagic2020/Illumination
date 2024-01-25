@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Assets-English (en)
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-Assets-English (en)
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 3027957794f3241bf8a2ff72f572cb22
+  m_SerializeEntries:
+  - m_GUID: d9be2be5506ed4442add30be4e24b547
+    m_Address: Language_Large_Eng
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 12f80529041dd4f3a8bdafe1c26f6efb
+    m_Address: joystix monospace SDF
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aa2f3c655b3634b2b852b64fd197fd58
+    m_Address: Changa-Bold_Underlay SDF
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: b33a5d83b786f4494b4c041197f5092d, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 28110d3337cf14791846ea1f9d0e6a3d, type: 2}
+    - {fileID: 11400000, guid: 5e51932b15b6b4d8a962d6d6ec1e6db9, type: 2}

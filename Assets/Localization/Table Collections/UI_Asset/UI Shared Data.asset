@@ -1,0 +1,196 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: UI Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: UI
+  m_TableCollectionNameGuidString: 4cbb8a67ab58040f8922ce13a4f4e934
+  m_Entries:
+  - m_Id: 105997719822336
+    m_Key: Menu/Canvas_UI/Settings Buttons Layout/Language Button/Image
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136039925538816
+    m_Key: Menu/Canvas_UI/Settings Panel/Options Frame/Audio Settings Button/Text
+      (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136040026202112
+    m_Key: Menu/Canvas_UI/Settings Panel/Options Frame/Audio Settings Button/Text
+      (TMP) 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 201534355791872
+    m_Key: Menu/Canvas_UI/Settings Panel/Game Settings/Entrance Animation Toggle/Label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 201534443872256
+    m_Key: Menu/Canvas_UI/Settings Panel/Game Settings/Entrance Animation Toggle/Label
+      1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 484626052145152
+    m_Key: Menu/Canvas_UI/Settings Panel/Audio Settings/Backround Music Slider Layout
+      Group/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 484626203140096
+    m_Key: Menu/Canvas_UI/Settings Panel/Audio Settings/Backround Music Slider Layout
+      Group/Text (TMP) 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 495999217819648
+    m_Key: Menu/Canvas_UI/Settings Panel/Audio Settings/Settings Slider Layout Group/Text
+      (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 495999343648768
+    m_Key: Menu/Canvas_UI/Settings Panel/Audio Settings/Settings Slider Layout Group/Text
+      (TMP) 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 563922112339968
+    m_Key: Menu/Canvas_UI/Load Game Popup/Title/Title/Text_Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 563922208808960
+    m_Key: Menu/Canvas_UI/Load Game Popup/Title/Title/Text_Title 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 563984578109440
+    m_Key: Menu/Canvas_UI/Load Game Popup/Load Save Button/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 563984590692352
+    m_Key: Menu/Canvas_UI/Load Game Popup/Load Save Button/Text (TMP) 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565804960571392
+    m_Key: Menu/Canvas_UI/Load Game Popup/Action Buttons Vertical Layout Group/Delete
+      Save Button/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565804989931520
+    m_Key: Menu/Canvas_UI/Load Game Popup/Action Buttons Vertical Layout Group/Delete
+      Save Button/Text (TMP) 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 566138705534976
+    m_Key: Menu/Canvas_UI/Load Game Popup/Action Buttons Vertical Layout Group/New
+      Game Button/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 566138722312192
+    m_Key: Menu/Canvas_UI/Load Game Popup/Action Buttons Vertical Layout Group/New
+      Game Button/Text (TMP) 1
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items:
+    - rid: 1587463168510132254
+    - rid: 1587463168510132267
+    - rid: 1587463168510132270
+  m_KeyGenerator:
+    rid: 1587463168510132246
+  references:
+    version: 2
+    RefIds:
+    - rid: 1587463168510132246
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1705452790175
+    - rid: 1587463168510132254
+      type: {class: AssetTypeMetadata, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        - m_KeyId: 105997719822336
+          m_TableCodes:
+          - en
+          - zh-Hans
+        m_TypeString: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+    - rid: 1587463168510132267
+      type: {class: AssetTypeMetadata, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        - m_KeyId: 136039925538816
+          m_TableCodes:
+          - en
+          - zh-Hans
+        - m_KeyId: 201534355791872
+          m_TableCodes:
+          - en
+          - zh-Hans
+        - m_KeyId: 484626052145152
+          m_TableCodes:
+          - en
+          - zh-Hans
+        - m_KeyId: 495999217819648
+          m_TableCodes:
+          - en
+          - zh-Hans
+        - m_KeyId: 563922112339968
+          m_TableCodes:
+          - en
+          - zh-Hans
+        - m_KeyId: 563984578109440
+          m_TableCodes:
+          - en
+          - zh-Hans
+        - m_KeyId: 565804960571392
+          m_TableCodes:
+          - en
+          - zh-Hans
+        - m_KeyId: 566138705534976
+          m_TableCodes:
+          - en
+          - zh-Hans
+        m_TypeString: TMPro.TMP_FontAsset, Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+    - rid: 1587463168510132270
+      type: {class: AssetTypeMetadata, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        - m_KeyId: 136040026202112
+          m_TableCodes:
+          - en
+          - zh-Hans
+        - m_KeyId: 201534443872256
+          m_TableCodes:
+          - en
+          - zh-Hans
+        - m_KeyId: 484626203140096
+          m_TableCodes:
+          - en
+          - zh-Hans
+        - m_KeyId: 495999343648768
+          m_TableCodes:
+          - en
+          - zh-Hans
+        - m_KeyId: 563922208808960
+          m_TableCodes:
+          - en
+          - zh-Hans
+        - m_KeyId: 563984590692352
+          m_TableCodes:
+          - zh-Hans
+          - en
+        - m_KeyId: 565804989931520
+          m_TableCodes:
+          - zh-Hans
+          - en
+        - m_KeyId: 566138722312192
+          m_TableCodes:
+          - zh-Hans
+          - en
+        m_TypeString: UnityEngine.Material, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null

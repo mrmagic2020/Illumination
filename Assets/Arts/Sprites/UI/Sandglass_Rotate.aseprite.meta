@@ -1,0 +1,427 @@
+fileFormatVersion: 2
+guid: 7f2f6f32e8b65472fa2d5ded1d22004f
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638410063839721390
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Sandglass_Rotate_Frame_0
+    originalName: 
+    pivot: {x: 0.5, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 163
+      y: 137
+      width: 48
+      height: 60
+    spriteID: 6cec493a72de44884ad97d5b46147728
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 163, y: 137}
+  - name: Sandglass_Rotate_Frame_1
+    originalName: 
+    pivot: {x: 0.49122807, y: -0.10447761}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 163
+      y: 4
+      width: 57
+      height: 67
+    spriteID: f86ed83b59c334eeeaaf4d31545c8fe4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 163, y: 4}
+  - name: Sandglass_Rotate_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: -0.05555556}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 166
+      width: 64
+      height: 72
+    spriteID: 3a408741185cb45eaa91b45ce46c8620
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 166}
+  - name: Sandglass_Rotate_Frame_3
+    originalName: 
+    pivot: {x: 0.5070422, y: -0.05479452}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 71
+      height: 73
+    spriteID: 9ff85f98580214c319396d74a49cae24
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Sandglass_Rotate_Frame_4
+    originalName: 
+    pivot: {x: 0.5070422, y: -0.05479452}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 85
+      width: 71
+      height: 73
+    spriteID: bd96210f7b8d547adab82d71a6fc39af
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 85}
+  - name: Sandglass_Rotate_Frame_5
+    originalName: 
+    pivot: {x: 0.48611113, y: -0.088235304}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 83
+      y: 4
+      width: 72
+      height: 68
+    spriteID: fa6684d51f3854423a8318ecc0448050
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 83, y: 4}
+  - name: Sandglass_Rotate_Frame_6
+    originalName: 
+    pivot: {x: 0.4918033, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 163
+      y: 79
+      width: 61
+      height: 50
+    spriteID: 02d7101f75ca14be29226880551d6c11
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 163, y: 79}
+  - name: Sandglass_Rotate_Frame_7
+    originalName: 
+    pivot: {x: 0.47826084, y: -0.12307693}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 83
+      y: 80
+      width: 69
+      height: 65
+    spriteID: 0256ed561a77644e48fa85ecbecd7e64
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 83, y: 80}
+  - name: Sandglass_Rotate_Frame_8
+    originalName: 
+    pivot: {x: 0.4918033, y: -0.073529415}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 83
+      y: 153
+      width: 61
+      height: 68
+    spriteID: c776a538bbc0b4dd49a89f3f1ebb9be9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 83, y: 153}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 499359198
+    name: Sandglass_Rotate
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Sandglass_Rotate_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 16
+        y: 10
+        width: 48
+        height: 60
+      spriteId: 6cec493a72de44884ad97d5b46147728
+    - name: Sandglass_Rotate_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 12
+        y: 7
+        width: 57
+        height: 67
+      spriteId: f86ed83b59c334eeeaaf4d31545c8fe4
+    - name: Sandglass_Rotate_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 8
+        y: 4
+        width: 64
+        height: 72
+      spriteId: 3a408741185cb45eaa91b45ce46c8620
+    - name: Sandglass_Rotate_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 4
+        y: 4
+        width: 71
+        height: 73
+      spriteId: 9ff85f98580214c319396d74a49cae24
+    - name: Sandglass_Rotate_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 4
+        y: 4
+        width: 71
+        height: 73
+      spriteId: bd96210f7b8d547adab82d71a6fc39af
+    - name: Sandglass_Rotate_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 5
+        y: 6
+        width: 72
+        height: 68
+      spriteId: fa6684d51f3854423a8318ecc0448050
+    - name: Sandglass_Rotate_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 10
+        y: 15
+        width: 61
+        height: 50
+      spriteId: 02d7101f75ca14be29226880551d6c11
+    - name: Sandglass_Rotate_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 7
+        y: 8
+        width: 69
+        height: 65
+      spriteId: 0256ed561a77644e48fa85ecbecd7e64
+    - name: Sandglass_Rotate_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 10
+        y: 5
+        width: 61
+        height: 68
+      spriteId: c776a538bbc0b4dd49a89f3f1ebb9be9
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 80, y: 80}
