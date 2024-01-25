@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog],
 and this project adheres to [Semantic Versioning].
 
+## [0.0.1-dev.20240125] - 2024-01-25
+
+### Changed
+
+- Better interactive UI for file selection.
+
 ## [0.0.1-dev.20240124] - 2024-01-24
 
 ### Added
