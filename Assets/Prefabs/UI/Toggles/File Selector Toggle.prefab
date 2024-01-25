@@ -89,6 +89,7 @@ GameObject:
   - component: {fileID: 7888943796313531011}
   - component: {fileID: 7991567429346504469}
   - component: {fileID: 6110289687549276728}
+  - component: {fileID: 123835916551858615}
   m_Layer: 5
   m_Name: File Selector Toggle
   m_TagString: Untagged
@@ -242,6 +243,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SoundEffect: {fileID: 0}
+--- !u!114 &123835916551858615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1378674285540223993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c637b986c0db4e6ca1656a6e33b0be8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tintMode: 1
+  onColor: {r: 0.5294118, g: 0.5294118, b: 0.5294118, a: 0.2509804}
 --- !u!1 &2295337926474191498
 GameObject:
   m_ObjectHideFlags: 0
