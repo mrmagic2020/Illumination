@@ -12,17 +12,17 @@ using System.Linq;
 
 public class LoadingManager : MonoBehaviour
 {
+    public Initializer initializer;
     public TextMeshProUGUI loadingText;
     public Transform sandGlassTransform;
     public string MenuSceneAddress;
+
     private AsyncOperationHandle<SceneInstance> menuSceneLoadHandle;
     private AsyncOperationHandle<IList<Locale>> localeLoadHandle;
 
     private List<Action> callbackList = new();
     private int totalLoadOperations = 0;
     private bool AllDone = false;
-
-
 
     // Start is called before the first frame update
     void Start()
@@ -87,6 +87,7 @@ public class LoadingManager : MonoBehaviour
             {
                 callbackList[i].Invoke();
             }
+            initializer.Init();
         }
     }
 

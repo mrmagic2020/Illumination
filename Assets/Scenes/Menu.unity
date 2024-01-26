@@ -159,9 +159,9 @@ RectTransform:
   - {fileID: 458623558}
   m_Father: {fileID: 49329967}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 140, y: -34.26001}
   m_SizeDelta: {x: 280, y: 68.52}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &29065491
@@ -222,7 +222,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 29065493}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1175177704}
+        m_TargetAssemblyTypeName: GameLoader, Assembly-CSharp
+        m_MethodName: OnDeleteRequest
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &29065493
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1497,36 +1509,8 @@ MonoBehaviour:
         m_Target: {fileID: 269410579}
         m_TrackedProperties:
           items:
-          - rid: 1587463140976623679
-          - rid: 1587463140976623680
           - rid: 1587463140976623681
         m_UpdateType: 0
-    - rid: 1587463140976623679
-      type: {class: UnityObjectProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
-      data:
-        m_PropertyPath: m_fontAsset
-        m_TypeString: TMPro.TMP_FontAsset, Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral,
-          PublicKeyToken=null
-        m_VariantData:
-        - localeIdentifier:
-            m_Code: en
-          value: {fileID: 11400000, guid: cbf06c664452e4fcca3d66259ef41e8e, type: 2}
-        - localeIdentifier:
-            m_Code: zh-Hans
-          value: {fileID: 11400000, guid: 880db56585bc0498d9033a17530aa86a, type: 2}
-    - rid: 1587463140976623680
-      type: {class: UnityObjectProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
-      data:
-        m_PropertyPath: m_sharedMaterial
-        m_TypeString: UnityEngine.Material, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_VariantData:
-        - localeIdentifier:
-            m_Code: en
-          value: {fileID: -6847650116636485085, guid: cbf06c664452e4fcca3d66259ef41e8e, type: 2}
-        - localeIdentifier:
-            m_Code: zh-Hans
-          value: {fileID: 8078175100647154418, guid: 880db56585bc0498d9033a17530aa86a, type: 2}
     - rid: 1587463140976623681
       type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
       data:
@@ -1580,8 +1564,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Scroll to continue...
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: cbf06c664452e4fcca3d66259ef41e8e, type: 2}
-  m_sharedMaterial: {fileID: -6847650116636485085, guid: cbf06c664452e4fcca3d66259ef41e8e, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 82e1ca10d7a284f479e1f8a719bfdc1c, type: 2}
+  m_sharedMaterial: {fileID: -850408798279237684, guid: 82e1ca10d7a284f479e1f8a719bfdc1c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -7103,9 +7087,9 @@ RectTransform:
   m_Father: {fileID: 235633012}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -17, y: -17}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &431820214
 MonoBehaviour:
@@ -7275,9 +7259,9 @@ RectTransform:
   m_Father: {fileID: 235633012}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 20, y: 0}
+  m_SizeDelta: {x: 20, y: -17}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &437808321
 MonoBehaviour:
@@ -7563,8 +7547,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: DELETE
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: cbf06c664452e4fcca3d66259ef41e8e, type: 2}
-  m_sharedMaterial: {fileID: -6847650116636485085, guid: cbf06c664452e4fcca3d66259ef41e8e, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 82e1ca10d7a284f479e1f8a719bfdc1c, type: 2}
+  m_sharedMaterial: {fileID: -850408798279237684, guid: 82e1ca10d7a284f479e1f8a719bfdc1c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -7662,8 +7646,6 @@ MonoBehaviour:
         m_TrackedProperties:
           items:
           - rid: 1587463214077575188
-          - rid: 1587463214077575189
-          - rid: 1587463214077575191
           - rid: 1587463214077575193
           - rid: 1587463214077575194
           - rid: 1587463214077575195
@@ -7671,6 +7653,7 @@ MonoBehaviour:
           - rid: 1587463214077575197
           - rid: 1587463214077575198
           - rid: 1587463214077575199
+          - rid: 5655031887612084233
         m_UpdateType: 0
     - rid: 1587463214077575188
       type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
@@ -7685,38 +7668,6 @@ MonoBehaviour:
           m_WaitForCompletion: 0
           m_LocalVariables: []
         m_PropertyPath: m_text
-    - rid: 1587463214077575189
-      type: {class: LocalizedAssetProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
-      data:
-        m_Localized:
-          rid: 1587463214077575190
-        m_PropertyPath: m_fontAsset
-    - rid: 1587463214077575190
-      type: {class: LocalizedTmpFont, ns: UnityEngine.Localization, asm: Unity.Localization}
-      data:
-        m_TableReference:
-          m_TableCollectionName: GUID:4cbb8a67ab58040f8922ce13a4f4e934
-        m_TableEntryReference:
-          m_KeyId: 565804960571392
-          m_Key: 
-        m_FallbackState: 0
-        m_WaitForCompletion: 0
-    - rid: 1587463214077575191
-      type: {class: LocalizedAssetProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
-      data:
-        m_Localized:
-          rid: 1587463214077575192
-        m_PropertyPath: m_sharedMaterial
-    - rid: 1587463214077575192
-      type: {class: LocalizedMaterial, ns: UnityEngine.Localization, asm: Unity.Localization}
-      data:
-        m_TableReference:
-          m_TableCollectionName: GUID:4cbb8a67ab58040f8922ce13a4f4e934
-        m_TableEntryReference:
-          m_KeyId: 565804989931520
-          m_Key: 
-        m_FallbackState: 0
-        m_WaitForCompletion: 0
     - rid: 1587463214077575193
       type: {class: EnumTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
       data:
@@ -7724,7 +7675,7 @@ MonoBehaviour:
         m_VariantData:
         - localeIdentifier:
             m_Code: en
-          value: 0
+          value: 1
         - localeIdentifier:
             m_Code: zh-Hans
           value: 0
@@ -7738,7 +7689,7 @@ MonoBehaviour:
           value: 4294958280
         - localeIdentifier:
             m_Code: zh-Hans
-          value: 4278190080
+          value: 4294967295
     - rid: 1587463214077575195
       type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
       data:
@@ -7749,7 +7700,7 @@ MonoBehaviour:
           value: 0.78431374
         - localeIdentifier:
             m_Code: zh-Hans
-          value: 0
+          value: 1
     - rid: 1587463214077575196
       type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
       data:
@@ -7760,7 +7711,7 @@ MonoBehaviour:
           value: 0.8627451
         - localeIdentifier:
             m_Code: zh-Hans
-          value: 0
+          value: 1
     - rid: 1587463214077575197
       type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
       data:
@@ -7771,7 +7722,7 @@ MonoBehaviour:
           value: 1
         - localeIdentifier:
             m_Code: zh-Hans
-          value: 0
+          value: 1
     - rid: 1587463214077575198
       type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
       data:
@@ -7782,7 +7733,7 @@ MonoBehaviour:
           value: 32
         - localeIdentifier:
             m_Code: zh-Hans
-          value: 38
+          value: 36
     - rid: 1587463214077575199
       type: {class: BoolTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
       data:
@@ -7794,6 +7745,22 @@ MonoBehaviour:
         - localeIdentifier:
             m_Code: zh-Hans
           value: 0
+    - rid: 5655031887612084233
+      type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
+      data:
+        m_PropertyPath: m_fontSizeBase
+        m_VariantData:
+        - localeIdentifier:
+            m_Code: en
+          value: 32
+        - localeIdentifier:
+            m_Code: zh-Hans
+          value: 36
+--- !u!1 &464926959 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1378674285540223993, guid: b80315fac4c3140a78e9bd4211a60c9c, type: 3}
+  m_PrefabInstance: {fileID: 3045232030027293083}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &477448617
 GameObject:
   m_ObjectHideFlags: 0
@@ -7829,9 +7796,9 @@ RectTransform:
   m_Father: {fileID: 235633012}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 20}
+  m_SizeDelta: {x: -17, y: 20}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &477448619
 MonoBehaviour:
@@ -8573,7 +8540,7 @@ RectTransform:
   m_Father: {fileID: 2108308730}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -9688,7 +9655,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1002560923
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10316,8 +10283,6 @@ MonoBehaviour:
         m_TrackedProperties:
           items:
           - rid: 1587463168510132227
-          - rid: 1587463168510132228
-          - rid: 1587463168510132229
           - rid: 1587463168510132230
           - rid: 1587463168510132231
           - rid: 1587463168510132232
@@ -10337,32 +10302,6 @@ MonoBehaviour:
           m_WaitForCompletion: 0
           m_LocalVariables: []
         m_PropertyPath: m_text
-    - rid: 1587463168510132228
-      type: {class: UnityObjectProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
-      data:
-        m_PropertyPath: m_fontAsset
-        m_TypeString: TMPro.TMP_FontAsset, Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral,
-          PublicKeyToken=null
-        m_VariantData:
-        - localeIdentifier:
-            m_Code: en
-          value: {fileID: 11400000, guid: cbf06c664452e4fcca3d66259ef41e8e, type: 2}
-        - localeIdentifier:
-            m_Code: zh-Hans
-          value: {fileID: 11400000, guid: cbf06c664452e4fcca3d66259ef41e8e, type: 2}
-    - rid: 1587463168510132229
-      type: {class: UnityObjectProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
-      data:
-        m_PropertyPath: m_sharedMaterial
-        m_TypeString: UnityEngine.Material, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_VariantData:
-        - localeIdentifier:
-            m_Code: en
-          value: {fileID: -6847650116636485085, guid: cbf06c664452e4fcca3d66259ef41e8e, type: 2}
-        - localeIdentifier:
-            m_Code: zh-Hans
-          value: {fileID: -6847650116636485085, guid: cbf06c664452e4fcca3d66259ef41e8e, type: 2}
     - rid: 1587463168510132230
       type: {class: BoolTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
       data:
@@ -10384,7 +10323,7 @@ MonoBehaviour:
           value: 1
         - localeIdentifier:
             m_Code: zh-Hans
-          value: 1
+          value: 0
     - rid: 1587463168510132232
       type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
       data:
@@ -10392,7 +10331,7 @@ MonoBehaviour:
         m_VariantData:
         - localeIdentifier:
             m_Code: en
-          value: 36
+          value: 46
         - localeIdentifier:
             m_Code: zh-Hans
           value: 46
@@ -10403,7 +10342,7 @@ MonoBehaviour:
         m_VariantData:
         - localeIdentifier:
             m_Code: en
-          value: 36
+          value: 46
         - localeIdentifier:
             m_Code: zh-Hans
           value: 46
@@ -10889,6 +10828,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   toggleGroup: {fileID: 1171370768}
+  prefab: {fileID: 464926959}
   affectedButtons:
   - {fileID: 29065492}
   - {fileID: 3029941737820980728}
@@ -11036,8 +10976,6 @@ MonoBehaviour:
         m_TrackedProperties:
           items:
           - rid: 1587463140976623648
-          - rid: 1587463140976623649
-          - rid: 1587463140976623650
           - rid: 1587463140976623651
         m_UpdateType: 0
     - rid: 1587463140976623648
@@ -11053,32 +10991,6 @@ MonoBehaviour:
           m_WaitForCompletion: 0
           m_LocalVariables: []
         m_PropertyPath: m_text
-    - rid: 1587463140976623649
-      type: {class: UnityObjectProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
-      data:
-        m_PropertyPath: m_fontAsset
-        m_TypeString: TMPro.TMP_FontAsset, Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral,
-          PublicKeyToken=null
-        m_VariantData:
-        - localeIdentifier:
-            m_Code: en
-          value: {fileID: 11400000, guid: cbf06c664452e4fcca3d66259ef41e8e, type: 2}
-        - localeIdentifier:
-            m_Code: zh-Hans
-          value: {fileID: 11400000, guid: cbf06c664452e4fcca3d66259ef41e8e, type: 2}
-    - rid: 1587463140976623650
-      type: {class: UnityObjectProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
-      data:
-        m_PropertyPath: m_sharedMaterial
-        m_TypeString: UnityEngine.Material, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_VariantData:
-        - localeIdentifier:
-            m_Code: en
-          value: {fileID: -6847650116636485085, guid: cbf06c664452e4fcca3d66259ef41e8e, type: 2}
-        - localeIdentifier:
-            m_Code: zh-Hans
-          value: {fileID: -6847650116636485085, guid: cbf06c664452e4fcca3d66259ef41e8e, type: 2}
     - rid: 1587463140976623651
       type: {class: EnumTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
       data:
@@ -11089,7 +11001,7 @@ MonoBehaviour:
           value: 1
         - localeIdentifier:
             m_Code: zh-Hans
-          value: 1
+          value: 0
 --- !u!114 &1193497151
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11112,8 +11024,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: QUIT
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 82e1ca10d7a284f479e1f8a719bfdc1c, type: 2}
+  m_sharedMaterial: {fileID: -850408798279237684, guid: 82e1ca10d7a284f479e1f8a719bfdc1c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -13472,7 +13384,7 @@ RectTransform:
   m_Father: {fileID: 815068855}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -13641,8 +13553,6 @@ MonoBehaviour:
         m_TrackedProperties:
           items:
           - rid: 1587463140976623665
-          - rid: 1587463140976623666
-          - rid: 1587463140976623667
           - rid: 1587463140976623668
           - rid: 1587463140976623669
           - rid: 1587463140976623677
@@ -13660,32 +13570,6 @@ MonoBehaviour:
           m_WaitForCompletion: 0
           m_LocalVariables: []
         m_PropertyPath: m_text
-    - rid: 1587463140976623666
-      type: {class: UnityObjectProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
-      data:
-        m_PropertyPath: m_fontAsset
-        m_TypeString: TMPro.TMP_FontAsset, Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral,
-          PublicKeyToken=null
-        m_VariantData:
-        - localeIdentifier:
-            m_Code: en
-          value: {fileID: 11400000, guid: cbf06c664452e4fcca3d66259ef41e8e, type: 2}
-        - localeIdentifier:
-            m_Code: zh-Hans
-          value: {fileID: 11400000, guid: cbf06c664452e4fcca3d66259ef41e8e, type: 2}
-    - rid: 1587463140976623667
-      type: {class: UnityObjectProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
-      data:
-        m_PropertyPath: m_sharedMaterial
-        m_TypeString: UnityEngine.Material, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_VariantData:
-        - localeIdentifier:
-            m_Code: en
-          value: {fileID: -6847650116636485085, guid: cbf06c664452e4fcca3d66259ef41e8e, type: 2}
-        - localeIdentifier:
-            m_Code: zh-Hans
-          value: {fileID: -6847650116636485085, guid: cbf06c664452e4fcca3d66259ef41e8e, type: 2}
     - rid: 1587463140976623668
       type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
       data:
@@ -13741,8 +13625,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Cancel
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12f80529041dd4f3a8bdafe1c26f6efb, type: 2}
-  m_sharedMaterial: {fileID: -1355505395999579045, guid: 12f80529041dd4f3a8bdafe1c26f6efb, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 82e1ca10d7a284f479e1f8a719bfdc1c, type: 2}
+  m_sharedMaterial: {fileID: -850408798279237684, guid: 82e1ca10d7a284f479e1f8a719bfdc1c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -14055,8 +13939,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Confirm
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 12f80529041dd4f3a8bdafe1c26f6efb, type: 2}
-  m_sharedMaterial: {fileID: -1355505395999579045, guid: 12f80529041dd4f3a8bdafe1c26f6efb, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 82e1ca10d7a284f479e1f8a719bfdc1c, type: 2}
+  m_sharedMaterial: {fileID: -850408798279237684, guid: 82e1ca10d7a284f479e1f8a719bfdc1c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -14153,39 +14037,11 @@ MonoBehaviour:
         m_Target: {fileID: 1719953245}
         m_TrackedProperties:
           items:
-          - rid: 1587463140976623671
-          - rid: 1587463140976623672
           - rid: 1587463140976623673
           - rid: 1587463140976623674
           - rid: 1587463140976623675
           - rid: 1587463140976623676
         m_UpdateType: 0
-    - rid: 1587463140976623671
-      type: {class: UnityObjectProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
-      data:
-        m_PropertyPath: m_fontAsset
-        m_TypeString: TMPro.TMP_FontAsset, Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral,
-          PublicKeyToken=null
-        m_VariantData:
-        - localeIdentifier:
-            m_Code: en
-          value: {fileID: 11400000, guid: cbf06c664452e4fcca3d66259ef41e8e, type: 2}
-        - localeIdentifier:
-            m_Code: zh-Hans
-          value: {fileID: 11400000, guid: cbf06c664452e4fcca3d66259ef41e8e, type: 2}
-    - rid: 1587463140976623672
-      type: {class: UnityObjectProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
-      data:
-        m_PropertyPath: m_sharedMaterial
-        m_TypeString: UnityEngine.Material, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_VariantData:
-        - localeIdentifier:
-            m_Code: en
-          value: {fileID: -6847650116636485085, guid: cbf06c664452e4fcca3d66259ef41e8e, type: 2}
-        - localeIdentifier:
-            m_Code: zh-Hans
-          value: {fileID: -6847650116636485085, guid: cbf06c664452e4fcca3d66259ef41e8e, type: 2}
     - rid: 1587463140976623673
       type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
       data:
@@ -14404,10 +14260,7 @@ MonoBehaviour:
         m_TrackedProperties:
           items:
           - rid: 1587463168510132281
-          - rid: 1587463168510132282
-          - rid: 1587463168510132284
           - rid: 1587463168510132286
-          - rid: 1587463168510132287
           - rid: 1587463168510132289
         m_UpdateType: 0
     - rid: 1587463168510132281
@@ -14423,38 +14276,6 @@ MonoBehaviour:
           m_WaitForCompletion: 0
           m_LocalVariables: []
         m_PropertyPath: m_text
-    - rid: 1587463168510132282
-      type: {class: LocalizedAssetProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
-      data:
-        m_Localized:
-          rid: 1587463168510132283
-        m_PropertyPath: m_fontAsset
-    - rid: 1587463168510132283
-      type: {class: LocalizedTmpFont, ns: UnityEngine.Localization, asm: Unity.Localization}
-      data:
-        m_TableReference:
-          m_TableCollectionName: GUID:4cbb8a67ab58040f8922ce13a4f4e934
-        m_TableEntryReference:
-          m_KeyId: 201534355791872
-          m_Key: 
-        m_FallbackState: 0
-        m_WaitForCompletion: 0
-    - rid: 1587463168510132284
-      type: {class: LocalizedAssetProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
-      data:
-        m_Localized:
-          rid: 1587463168510132285
-        m_PropertyPath: m_sharedMaterial
-    - rid: 1587463168510132285
-      type: {class: LocalizedMaterial, ns: UnityEngine.Localization, asm: Unity.Localization}
-      data:
-        m_TableReference:
-          m_TableCollectionName: GUID:4cbb8a67ab58040f8922ce13a4f4e934
-        m_TableEntryReference:
-          m_KeyId: 201534443872256
-          m_Key: 
-        m_FallbackState: 0
-        m_WaitForCompletion: 0
     - rid: 1587463168510132286
       type: {class: BoolTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
       data:
@@ -14466,17 +14287,6 @@ MonoBehaviour:
         - localeIdentifier:
             m_Code: zh-Hans
           value: 0
-    - rid: 1587463168510132287
-      type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
-      data:
-        m_PropertyPath: m_fontSize
-        m_VariantData:
-        - localeIdentifier:
-            m_Code: en
-          value: 14
-        - localeIdentifier:
-            m_Code: zh-Hans
-          value: 16
     - rid: 1587463168510132289
       type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
       data:
@@ -14484,7 +14294,7 @@ MonoBehaviour:
         m_VariantData:
         - localeIdentifier:
             m_Code: en
-          value: 14
+          value: 16
         - localeIdentifier:
             m_Code: zh-Hans
           value: 16
@@ -14755,7 +14565,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1845068076
 RectTransform:
   m_ObjectHideFlags: 0
@@ -14865,8 +14675,7 @@ MonoBehaviour:
         m_TrackedProperties:
           items:
           - rid: 1587463140976623644
-          - rid: 1587463140976623645
-          - rid: 1587463140976623646
+          - rid: 5655031887612084242
         m_UpdateType: 0
     - rid: 1587463140976623644
       type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
@@ -14881,32 +14690,17 @@ MonoBehaviour:
           m_WaitForCompletion: 0
           m_LocalVariables: []
         m_PropertyPath: m_text
-    - rid: 1587463140976623645
-      type: {class: UnityObjectProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
+    - rid: 5655031887612084242
+      type: {class: EnumTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
       data:
-        m_PropertyPath: m_fontAsset
-        m_TypeString: TMPro.TMP_FontAsset, Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral,
-          PublicKeyToken=null
+        m_PropertyPath: m_fontStyle
         m_VariantData:
         - localeIdentifier:
             m_Code: en
-          value: {fileID: 11400000, guid: cbf06c664452e4fcca3d66259ef41e8e, type: 2}
+          value: 1
         - localeIdentifier:
             m_Code: zh-Hans
-          value: {fileID: 11400000, guid: cbf06c664452e4fcca3d66259ef41e8e, type: 2}
-    - rid: 1587463140976623646
-      type: {class: UnityObjectProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
-      data:
-        m_PropertyPath: m_sharedMaterial
-        m_TypeString: UnityEngine.Material, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_VariantData:
-        - localeIdentifier:
-            m_Code: en
-          value: {fileID: -6847650116636485085, guid: cbf06c664452e4fcca3d66259ef41e8e, type: 2}
-        - localeIdentifier:
-            m_Code: zh-Hans
-          value: {fileID: -6847650116636485085, guid: cbf06c664452e4fcca3d66259ef41e8e, type: 2}
+          value: 0
 --- !u!114 &1927663860
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14929,8 +14723,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: PLAY
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 82e1ca10d7a284f479e1f8a719bfdc1c, type: 2}
+  m_sharedMaterial: {fileID: -850408798279237684, guid: 82e1ca10d7a284f479e1f8a719bfdc1c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -15517,8 +15311,6 @@ MonoBehaviour:
         m_TrackedProperties:
           items:
           - rid: 1587463140976623657
-          - rid: 1587463140976623658
-          - rid: 1587463140976623659
           - rid: 1587463140976623660
           - rid: 1587463140976623661
           - rid: 1587463140976623662
@@ -15537,32 +15329,6 @@ MonoBehaviour:
           m_WaitForCompletion: 0
           m_LocalVariables: []
         m_PropertyPath: m_text
-    - rid: 1587463140976623658
-      type: {class: UnityObjectProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
-      data:
-        m_PropertyPath: m_fontAsset
-        m_TypeString: TMPro.TMP_FontAsset, Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral,
-          PublicKeyToken=null
-        m_VariantData:
-        - localeIdentifier:
-            m_Code: en
-          value: {fileID: 11400000, guid: cbf06c664452e4fcca3d66259ef41e8e, type: 2}
-        - localeIdentifier:
-            m_Code: zh-Hans
-          value: {fileID: 11400000, guid: cbf06c664452e4fcca3d66259ef41e8e, type: 2}
-    - rid: 1587463140976623659
-      type: {class: UnityObjectProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
-      data:
-        m_PropertyPath: m_sharedMaterial
-        m_TypeString: UnityEngine.Material, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_VariantData:
-        - localeIdentifier:
-            m_Code: en
-          value: {fileID: -6847650116636485085, guid: cbf06c664452e4fcca3d66259ef41e8e, type: 2}
-        - localeIdentifier:
-            m_Code: zh-Hans
-          value: {fileID: -6847650116636485085, guid: cbf06c664452e4fcca3d66259ef41e8e, type: 2}
     - rid: 1587463140976623660
       type: {class: BoolTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
       data:
@@ -15914,9 +15680,6 @@ MonoBehaviour:
         m_TrackedProperties:
           items:
           - rid: 1587463168510132236
-          - rid: 1587463168510132237
-          - rid: 1587463168510132238
-          - rid: 1587463168510132239
           - rid: 1587463168510132240
           - rid: 1587463168510132241
         m_UpdateType: 0
@@ -15933,43 +15696,6 @@ MonoBehaviour:
           m_WaitForCompletion: 0
           m_LocalVariables: []
         m_PropertyPath: m_text
-    - rid: 1587463168510132237
-      type: {class: UnityObjectProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
-      data:
-        m_PropertyPath: m_fontAsset
-        m_TypeString: TMPro.TMP_FontAsset, Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral,
-          PublicKeyToken=null
-        m_VariantData:
-        - localeIdentifier:
-            m_Code: en
-          value: {fileID: 11400000, guid: cbf06c664452e4fcca3d66259ef41e8e, type: 2}
-        - localeIdentifier:
-            m_Code: zh-Hans
-          value: {fileID: 11400000, guid: cbf06c664452e4fcca3d66259ef41e8e, type: 2}
-    - rid: 1587463168510132238
-      type: {class: UnityObjectProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
-      data:
-        m_PropertyPath: m_sharedMaterial
-        m_TypeString: UnityEngine.Material, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-        m_VariantData:
-        - localeIdentifier:
-            m_Code: en
-          value: {fileID: -6847650116636485085, guid: cbf06c664452e4fcca3d66259ef41e8e, type: 2}
-        - localeIdentifier:
-            m_Code: zh-Hans
-          value: {fileID: -6847650116636485085, guid: cbf06c664452e4fcca3d66259ef41e8e, type: 2}
-    - rid: 1587463168510132239
-      type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
-      data:
-        m_PropertyPath: m_fontSize
-        m_VariantData:
-        - localeIdentifier:
-            m_Code: en
-          value: 26
-        - localeIdentifier:
-            m_Code: zh-Hans
-          value: 30
     - rid: 1587463168510132240
       type: {class: BoolTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
       data:
@@ -15988,7 +15714,7 @@ MonoBehaviour:
         m_VariantData:
         - localeIdentifier:
             m_Code: en
-          value: 26
+          value: 3
         - localeIdentifier:
             m_Code: zh-Hans
           value: 30
@@ -16092,8 +15818,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: GAME SETTINGS
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: cbf06c664452e4fcca3d66259ef41e8e, type: 2}
-  m_sharedMaterial: {fileID: -6847650116636485085, guid: cbf06c664452e4fcca3d66259ef41e8e, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 82e1ca10d7a284f479e1f8a719bfdc1c, type: 2}
+  m_sharedMaterial: {fileID: -850408798279237684, guid: 82e1ca10d7a284f479e1f8a719bfdc1c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -16117,7 +15843,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
+  m_fontSize: 30
   m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
@@ -16271,8 +15997,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: BACKGROUND MUSIC
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: cbf06c664452e4fcca3d66259ef41e8e, type: 2}
-  m_sharedMaterial: {fileID: -6847650116636485085, guid: cbf06c664452e4fcca3d66259ef41e8e, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 82e1ca10d7a284f479e1f8a719bfdc1c, type: 2}
+  m_sharedMaterial: {fileID: -850408798279237684, guid: 82e1ca10d7a284f479e1f8a719bfdc1c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -16428,8 +16154,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: NEW
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: cbf06c664452e4fcca3d66259ef41e8e, type: 2}
-  m_sharedMaterial: {fileID: -6847650116636485085, guid: cbf06c664452e4fcca3d66259ef41e8e, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 82e1ca10d7a284f479e1f8a719bfdc1c, type: 2}
+  m_sharedMaterial: {fileID: -850408798279237684, guid: 82e1ca10d7a284f479e1f8a719bfdc1c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -16459,7 +16185,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -16526,8 +16252,6 @@ MonoBehaviour:
         m_Target: {fileID: 506202341583884038}
         m_TrackedProperties:
           items:
-          - rid: 1587463214077575202
-          - rid: 1587463214077575204
           - rid: 1587463214077575206
           - rid: 1587463214077575207
           - rid: 1587463214077575208
@@ -16535,39 +16259,8 @@ MonoBehaviour:
           - rid: 1587463214077575210
           - rid: 1587463344606150666
           - rid: 1587463344606150667
+          - rid: 5655031887612084234
         m_UpdateType: 0
-    - rid: 1587463214077575202
-      type: {class: LocalizedAssetProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
-      data:
-        m_Localized:
-          rid: 1587463214077575203
-        m_PropertyPath: m_fontAsset
-    - rid: 1587463214077575203
-      type: {class: LocalizedTmpFont, ns: UnityEngine.Localization, asm: Unity.Localization}
-      data:
-        m_TableReference:
-          m_TableCollectionName: GUID:4cbb8a67ab58040f8922ce13a4f4e934
-        m_TableEntryReference:
-          m_KeyId: 566138705534976
-          m_Key: 
-        m_FallbackState: 0
-        m_WaitForCompletion: 0
-    - rid: 1587463214077575204
-      type: {class: LocalizedAssetProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
-      data:
-        m_Localized:
-          rid: 1587463214077575205
-        m_PropertyPath: m_sharedMaterial
-    - rid: 1587463214077575205
-      type: {class: LocalizedMaterial, ns: UnityEngine.Localization, asm: Unity.Localization}
-      data:
-        m_TableReference:
-          m_TableCollectionName: GUID:4cbb8a67ab58040f8922ce13a4f4e934
-        m_TableEntryReference:
-          m_KeyId: 566138722312192
-          m_Key: 
-        m_FallbackState: 0
-        m_WaitForCompletion: 0
     - rid: 1587463214077575206
       type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
       data:
@@ -16591,7 +16284,7 @@ MonoBehaviour:
           value: 4294958280
         - localeIdentifier:
             m_Code: zh-Hans
-          value: 4278190080
+          value: 4294967295
     - rid: 1587463214077575208
       type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
       data:
@@ -16602,7 +16295,7 @@ MonoBehaviour:
           value: 0.78431374
         - localeIdentifier:
             m_Code: zh-Hans
-          value: 0
+          value: 1
     - rid: 1587463214077575209
       type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
       data:
@@ -16613,7 +16306,7 @@ MonoBehaviour:
           value: 0.8627451
         - localeIdentifier:
             m_Code: zh-Hans
-          value: 0
+          value: 1
     - rid: 1587463214077575210
       type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
       data:
@@ -16624,7 +16317,7 @@ MonoBehaviour:
           value: 1
         - localeIdentifier:
             m_Code: zh-Hans
-          value: 0
+          value: 1
     - rid: 1587463344606150666
       type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
       data:
@@ -16635,7 +16328,7 @@ MonoBehaviour:
           value: 32
         - localeIdentifier:
             m_Code: zh-Hans
-          value: 38
+          value: 36
     - rid: 1587463344606150667
       type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
       data:
@@ -16646,7 +16339,18 @@ MonoBehaviour:
           value: 32
         - localeIdentifier:
             m_Code: zh-Hans
-          value: 38
+          value: 36
+    - rid: 5655031887612084234
+      type: {class: EnumTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
+      data:
+        m_PropertyPath: m_fontStyle
+        m_VariantData:
+        - localeIdentifier:
+            m_Code: en
+          value: 1
+        - localeIdentifier:
+            m_Code: zh-Hans
+          value: 0
 --- !u!114 &506202343583094252
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16705,7 +16409,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 506202343583094258}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1175177704}
+        m_TargetAssemblyTypeName: GameLoader, Assembly-CSharp
+        m_MethodName: OnNewSaveRequest
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &506202343583094254
 GameObject:
   m_ObjectHideFlags: 0
@@ -16742,9 +16458,9 @@ RectTransform:
   - {fileID: 506202341583884033}
   m_Father: {fileID: 49329967}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 140, y: -117.71332}
   m_SizeDelta: {x: 280, y: 68.52}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &506202343583094258
@@ -16821,25 +16537,11 @@ MonoBehaviour:
         m_Target: {fileID: 275207325281755621}
         m_TrackedProperties:
           items:
-          - rid: 1587463201202896940
           - rid: 1587463201202896941
           - rid: 1587463201202896942
           - rid: 1587463201202896952
-          - rid: 1587463201202896953
-          - rid: 1587463201202896955
           - rid: 1587463201202896957
         m_UpdateType: 0
-    - rid: 1587463201202896940
-      type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
-      data:
-        m_PropertyPath: m_fontSize
-        m_VariantData:
-        - localeIdentifier:
-            m_Code: en
-          value: 48
-        - localeIdentifier:
-            m_Code: zh-Hans
-          value: 60
     - rid: 1587463201202896941
       type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
       data:
@@ -16875,38 +16577,6 @@ MonoBehaviour:
           m_WaitForCompletion: 0
           m_LocalVariables: []
         m_PropertyPath: m_text
-    - rid: 1587463201202896953
-      type: {class: LocalizedAssetProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
-      data:
-        m_Localized:
-          rid: 1587463201202896954
-        m_PropertyPath: m_fontAsset
-    - rid: 1587463201202896954
-      type: {class: LocalizedTmpFont, ns: UnityEngine.Localization, asm: Unity.Localization}
-      data:
-        m_TableReference:
-          m_TableCollectionName: GUID:4cbb8a67ab58040f8922ce13a4f4e934
-        m_TableEntryReference:
-          m_KeyId: 495999217819648
-          m_Key: 
-        m_FallbackState: 0
-        m_WaitForCompletion: 0
-    - rid: 1587463201202896955
-      type: {class: LocalizedAssetProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
-      data:
-        m_Localized:
-          rid: 1587463201202896956
-        m_PropertyPath: m_sharedMaterial
-    - rid: 1587463201202896956
-      type: {class: LocalizedMaterial, ns: UnityEngine.Localization, asm: Unity.Localization}
-      data:
-        m_TableReference:
-          m_TableCollectionName: GUID:4cbb8a67ab58040f8922ce13a4f4e934
-        m_TableEntryReference:
-          m_KeyId: 495999343648768
-          m_Key: 
-        m_FallbackState: 0
-        m_WaitForCompletion: 0
     - rid: 1587463201202896957
       type: {class: BoolTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
       data:
@@ -17059,45 +16729,10 @@ MonoBehaviour:
         m_Target: {fileID: 1799069642202737675}
         m_TrackedProperties:
           items:
-          - rid: 1587463201202896935
-          - rid: 1587463201202896937
           - rid: 1587463201202896939
-          - rid: 1587463201202896940
           - rid: 1587463201202896941
           - rid: 1587463201202896942
         m_UpdateType: 0
-    - rid: 1587463201202896935
-      type: {class: LocalizedAssetProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
-      data:
-        m_Localized:
-          rid: 1587463201202896936
-        m_PropertyPath: m_fontAsset
-    - rid: 1587463201202896936
-      type: {class: LocalizedTmpFont, ns: UnityEngine.Localization, asm: Unity.Localization}
-      data:
-        m_TableReference:
-          m_TableCollectionName: GUID:4cbb8a67ab58040f8922ce13a4f4e934
-        m_TableEntryReference:
-          m_KeyId: 484626052145152
-          m_Key: 
-        m_FallbackState: 0
-        m_WaitForCompletion: 0
-    - rid: 1587463201202896937
-      type: {class: LocalizedAssetProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
-      data:
-        m_Localized:
-          rid: 1587463201202896938
-        m_PropertyPath: m_sharedMaterial
-    - rid: 1587463201202896938
-      type: {class: LocalizedMaterial, ns: UnityEngine.Localization, asm: Unity.Localization}
-      data:
-        m_TableReference:
-          m_TableCollectionName: GUID:4cbb8a67ab58040f8922ce13a4f4e934
-        m_TableEntryReference:
-          m_KeyId: 484626203140096
-          m_Key: 
-        m_FallbackState: 0
-        m_WaitForCompletion: 0
     - rid: 1587463201202896939
       type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
       data:
@@ -17111,17 +16746,6 @@ MonoBehaviour:
           m_WaitForCompletion: 0
           m_LocalVariables: []
         m_PropertyPath: m_text
-    - rid: 1587463201202896940
-      type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
-      data:
-        m_PropertyPath: m_fontSize
-        m_VariantData:
-        - localeIdentifier:
-            m_Code: en
-          value: 48
-        - localeIdentifier:
-            m_Code: zh-Hans
-          value: 60
     - rid: 1587463201202896941
       type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
       data:
@@ -17305,7 +16929,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Text Info
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: fa08fff1716a04db18700207b6c202e5, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 82e1ca10d7a284f479e1f8a719bfdc1c, type: 2}
   m_sharedMaterial: {fileID: 7908499825950019370, guid: fa08fff1716a04db18700207b6c202e5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -17369,7 +16993,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &1310485744922652374
@@ -17413,8 +17037,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Quit the game?
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 162f7f16c4bec41ff98f811bd90e7b6e, type: 2}
-  m_sharedMaterial: {fileID: 6447333859754382329, guid: 162f7f16c4bec41ff98f811bd90e7b6e, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 82e1ca10d7a284f479e1f8a719bfdc1c, type: 2}
+  m_sharedMaterial: {fileID: -850408798279237684, guid: 82e1ca10d7a284f479e1f8a719bfdc1c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -17529,8 +17153,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: GAME SETTINGS
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: cbf06c664452e4fcca3d66259ef41e8e, type: 2}
-  m_sharedMaterial: {fileID: -6847650116636485085, guid: cbf06c664452e4fcca3d66259ef41e8e, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 82e1ca10d7a284f479e1f8a719bfdc1c, type: 2}
+  m_sharedMaterial: {fileID: -850408798279237684, guid: 82e1ca10d7a284f479e1f8a719bfdc1c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -17554,7 +17178,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 26
+  m_fontSize: 30
   m_fontSizeBase: 26
   m_fontWeight: 400
   m_enableAutoSizing: 0
@@ -17720,9 +17344,6 @@ MonoBehaviour:
         m_TrackedProperties:
           items:
           - rid: 1587463168510132264
-          - rid: 1587463168510132265
-          - rid: 1587463168510132268
-          - rid: 1587463168510132271
           - rid: 1587463168510132272
           - rid: 1587463168510132273
         m_UpdateType: 0
@@ -17739,49 +17360,6 @@ MonoBehaviour:
           m_WaitForCompletion: 0
           m_LocalVariables: []
         m_PropertyPath: m_text
-    - rid: 1587463168510132265
-      type: {class: LocalizedAssetProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
-      data:
-        m_Localized:
-          rid: 1587463168510132266
-        m_PropertyPath: m_fontAsset
-    - rid: 1587463168510132266
-      type: {class: LocalizedTmpFont, ns: UnityEngine.Localization, asm: Unity.Localization}
-      data:
-        m_TableReference:
-          m_TableCollectionName: GUID:4cbb8a67ab58040f8922ce13a4f4e934
-        m_TableEntryReference:
-          m_KeyId: 136039925538816
-          m_Key: 
-        m_FallbackState: 0
-        m_WaitForCompletion: 0
-    - rid: 1587463168510132268
-      type: {class: LocalizedAssetProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
-      data:
-        m_Localized:
-          rid: 1587463168510132269
-        m_PropertyPath: m_sharedMaterial
-    - rid: 1587463168510132269
-      type: {class: LocalizedMaterial, ns: UnityEngine.Localization, asm: Unity.Localization}
-      data:
-        m_TableReference:
-          m_TableCollectionName: GUID:4cbb8a67ab58040f8922ce13a4f4e934
-        m_TableEntryReference:
-          m_KeyId: 136040026202112
-          m_Key: 
-        m_FallbackState: 0
-        m_WaitForCompletion: 0
-    - rid: 1587463168510132271
-      type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
-      data:
-        m_PropertyPath: m_fontSize
-        m_VariantData:
-        - localeIdentifier:
-            m_Code: en
-          value: 26
-        - localeIdentifier:
-            m_Code: zh-Hans
-          value: 30
     - rid: 1587463168510132272
       type: {class: BoolTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
       data:
@@ -17800,7 +17378,7 @@ MonoBehaviour:
         m_VariantData:
         - localeIdentifier:
             m_Code: en
-          value: 26
+          value: 30
         - localeIdentifier:
             m_Code: zh-Hans
           value: 30
@@ -17826,8 +17404,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: BACKGROUND MUSIC
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: cbf06c664452e4fcca3d66259ef41e8e, type: 2}
-  m_sharedMaterial: {fileID: -6847650116636485085, guid: cbf06c664452e4fcca3d66259ef41e8e, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 82e1ca10d7a284f479e1f8a719bfdc1c, type: 2}
+  m_sharedMaterial: {fileID: -850408798279237684, guid: 82e1ca10d7a284f479e1f8a719bfdc1c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -18190,9 +17768,9 @@ RectTransform:
   - {fileID: 3029941738791149026}
   m_Father: {fileID: 49329967}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 140, y: -245.02664}
   m_SizeDelta: {x: 280, y: 156.24}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &3029941737820980731
@@ -18293,8 +17871,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: LOAD
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: cbf06c664452e4fcca3d66259ef41e8e, type: 2}
-  m_sharedMaterial: {fileID: -6847650116636485085, guid: cbf06c664452e4fcca3d66259ef41e8e, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 82e1ca10d7a284f479e1f8a719bfdc1c, type: 2}
+  m_sharedMaterial: {fileID: -850408798279237684, guid: 82e1ca10d7a284f479e1f8a719bfdc1c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -18318,8 +17896,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 46
-  m_fontSizeBase: 46
+  m_fontSize: 56
+  m_fontSizeBase: 56
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -18403,8 +17981,6 @@ MonoBehaviour:
         m_TrackedProperties:
           items:
           - rid: 1587463214077575181
-          - rid: 1587463214077575182
-          - rid: 1587463214077575184
           - rid: 1587463214077575186
           - rid: 1587463344606150662
           - rid: 1587463344606150663
@@ -18424,38 +18000,6 @@ MonoBehaviour:
           m_WaitForCompletion: 0
           m_LocalVariables: []
         m_PropertyPath: m_text
-    - rid: 1587463214077575182
-      type: {class: LocalizedAssetProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
-      data:
-        m_Localized:
-          rid: 1587463214077575183
-        m_PropertyPath: m_fontAsset
-    - rid: 1587463214077575183
-      type: {class: LocalizedTmpFont, ns: UnityEngine.Localization, asm: Unity.Localization}
-      data:
-        m_TableReference:
-          m_TableCollectionName: GUID:4cbb8a67ab58040f8922ce13a4f4e934
-        m_TableEntryReference:
-          m_KeyId: 563984578109440
-          m_Key: 
-        m_FallbackState: 0
-        m_WaitForCompletion: 0
-    - rid: 1587463214077575184
-      type: {class: LocalizedAssetProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
-      data:
-        m_Localized:
-          rid: 1587463214077575185
-        m_PropertyPath: m_sharedMaterial
-    - rid: 1587463214077575185
-      type: {class: LocalizedMaterial, ns: UnityEngine.Localization, asm: Unity.Localization}
-      data:
-        m_TableReference:
-          m_TableCollectionName: GUID:4cbb8a67ab58040f8922ce13a4f4e934
-        m_TableEntryReference:
-          m_KeyId: 563984590692352
-          m_Key: 
-        m_FallbackState: 0
-        m_WaitForCompletion: 0
     - rid: 1587463214077575186
       type: {class: EnumTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
       data:
@@ -18477,7 +18021,7 @@ MonoBehaviour:
           value: 4294967295
         - localeIdentifier:
             m_Code: zh-Hans
-          value: 4278190080
+          value: 4294967295
     - rid: 1587463344606150663
       type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
       data:
@@ -18488,7 +18032,7 @@ MonoBehaviour:
           value: 1
         - localeIdentifier:
             m_Code: zh-Hans
-          value: 0
+          value: 1
     - rid: 1587463344606150664
       type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
       data:
@@ -18499,7 +18043,7 @@ MonoBehaviour:
           value: 1
         - localeIdentifier:
             m_Code: zh-Hans
-          value: 0
+          value: 1
     - rid: 1587463344606150665
       type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
       data:
@@ -18510,7 +18054,7 @@ MonoBehaviour:
           value: 1
         - localeIdentifier:
             m_Code: zh-Hans
-          value: 0
+          value: 1
 --- !u!1001 &3045232030027293083
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18523,50 +18067,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: File Selector Toggle
       objectReference: {fileID: 0}
-    - target: {fileID: 2142050297138636303, guid: b80315fac4c3140a78e9bd4211a60c9c, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2142050297138636303, guid: b80315fac4c3140a78e9bd4211a60c9c, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2142050297138636303, guid: b80315fac4c3140a78e9bd4211a60c9c, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2142050297138636303, guid: b80315fac4c3140a78e9bd4211a60c9c, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6110289687549276728, guid: b80315fac4c3140a78e9bd4211a60c9c, type: 3}
       propertyPath: SoundEffect
       value: 
       objectReference: {fileID: 248541218}
-    - target: {fileID: 7266537028087175421, guid: b80315fac4c3140a78e9bd4211a60c9c, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7266537028087175421, guid: b80315fac4c3140a78e9bd4211a60c9c, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7266537028087175421, guid: b80315fac4c3140a78e9bd4211a60c9c, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7266537028087175421, guid: b80315fac4c3140a78e9bd4211a60c9c, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7991567429346504469, guid: b80315fac4c3140a78e9bd4211a60c9c, type: 3}
       propertyPath: m_Group
       value: 
       objectReference: {fileID: 1171370768}
-    - target: {fileID: 7991567429346504469, guid: b80315fac4c3140a78e9bd4211a60c9c, type: 3}
-      propertyPath: m_Colors.m_NormalColor.a
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8528178530973171097, guid: b80315fac4c3140a78e9bd4211a60c9c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -18581,7 +18089,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8528178530973171097, guid: b80315fac4c3140a78e9bd4211a60c9c, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8528178530973171097, guid: b80315fac4c3140a78e9bd4211a60c9c, type: 3}
       propertyPath: m_AnchorMin.x
@@ -18589,7 +18097,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8528178530973171097, guid: b80315fac4c3140a78e9bd4211a60c9c, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8528178530973171097, guid: b80315fac4c3140a78e9bd4211a60c9c, type: 3}
       propertyPath: m_SizeDelta.x
@@ -18597,7 +18105,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8528178530973171097, guid: b80315fac4c3140a78e9bd4211a60c9c, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 55
       objectReference: {fileID: 0}
     - target: {fileID: 8528178530973171097, guid: b80315fac4c3140a78e9bd4211a60c9c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18629,11 +18137,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8528178530973171097, guid: b80315fac4c3140a78e9bd4211a60c9c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 380.745
       objectReference: {fileID: 0}
     - target: {fileID: 8528178530973171097, guid: b80315fac4c3140a78e9bd4211a60c9c, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -27.5
       objectReference: {fileID: 0}
     - target: {fileID: 8528178530973171097, guid: b80315fac4c3140a78e9bd4211a60c9c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -18713,8 +18221,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Entranc Animation
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: cbf06c664452e4fcca3d66259ef41e8e, type: 2}
-  m_sharedMaterial: {fileID: -1355505395999579045, guid: 12f80529041dd4f3a8bdafe1c26f6efb, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 82e1ca10d7a284f479e1f8a719bfdc1c, type: 2}
+  m_sharedMaterial: {fileID: -850408798279237684, guid: 82e1ca10d7a284f479e1f8a719bfdc1c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -18907,8 +18415,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Entranc Animation
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: cbf06c664452e4fcca3d66259ef41e8e, type: 2}
-  m_sharedMaterial: {fileID: -6847650116636485085, guid: cbf06c664452e4fcca3d66259ef41e8e, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 82e1ca10d7a284f479e1f8a719bfdc1c, type: 2}
+  m_sharedMaterial: {fileID: -850408798279237684, guid: 82e1ca10d7a284f479e1f8a719bfdc1c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -19603,7 +19111,7 @@ GameObject:
   - component: {fileID: 6342620280478816019}
   - component: {fileID: 4015789067161771821}
   m_Layer: 5
-  m_Name: Settings Slider Layout Group
+  m_Name: Sound Effects Slider Layout Group
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21358,8 +20866,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: LOAD GAME
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: cbf06c664452e4fcca3d66259ef41e8e, type: 2}
-  m_sharedMaterial: {fileID: -6847650116636485085, guid: cbf06c664452e4fcca3d66259ef41e8e, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 82e1ca10d7a284f479e1f8a719bfdc1c, type: 2}
+  m_sharedMaterial: {fileID: -850408798279237684, guid: 82e1ca10d7a284f479e1f8a719bfdc1c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -21383,8 +20891,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36.3
-  m_fontSizeBase: 36
+  m_fontSize: 51
+  m_fontSizeBase: 46
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
@@ -21459,8 +20967,6 @@ MonoBehaviour:
           - rid: 1587463214077575171
           - rid: 1587463214077575172
           - rid: 1587463214077575173
-          - rid: 1587463214077575176
-          - rid: 1587463214077575178
         m_UpdateType: 0
     - rid: 1587463214077575171
       type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
@@ -21482,7 +20988,7 @@ MonoBehaviour:
         m_VariantData:
         - localeIdentifier:
             m_Code: en
-          value: 36
+          value: 46
         - localeIdentifier:
             m_Code: zh-Hans
           value: 40
@@ -21497,38 +21003,6 @@ MonoBehaviour:
         - localeIdentifier:
             m_Code: zh-Hans
           value: 0
-    - rid: 1587463214077575176
-      type: {class: LocalizedAssetProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
-      data:
-        m_Localized:
-          rid: 1587463214077575177
-        m_PropertyPath: m_fontAsset
-    - rid: 1587463214077575177
-      type: {class: LocalizedTmpFont, ns: UnityEngine.Localization, asm: Unity.Localization}
-      data:
-        m_TableReference:
-          m_TableCollectionName: GUID:4cbb8a67ab58040f8922ce13a4f4e934
-        m_TableEntryReference:
-          m_KeyId: 563922112339968
-          m_Key: 
-        m_FallbackState: 0
-        m_WaitForCompletion: 0
-    - rid: 1587463214077575178
-      type: {class: LocalizedAssetProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
-      data:
-        m_Localized:
-          rid: 1587463214077575179
-        m_PropertyPath: m_sharedMaterial
-    - rid: 1587463214077575179
-      type: {class: LocalizedMaterial, ns: UnityEngine.Localization, asm: Unity.Localization}
-      data:
-        m_TableReference:
-          m_TableCollectionName: GUID:4cbb8a67ab58040f8922ce13a4f4e934
-        m_TableEntryReference:
-          m_KeyId: 563922208808960
-          m_Key: 
-        m_FallbackState: 0
-        m_WaitForCompletion: 0
 --- !u!1 &8984723170156929552
 GameObject:
   m_ObjectHideFlags: 0
@@ -21884,7 +21358,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &8984723170564611757
 RectTransform:
   m_ObjectHideFlags: 0
@@ -21984,8 +21458,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: SETTINGS
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: cbf06c664452e4fcca3d66259ef41e8e, type: 2}
-  m_sharedMaterial: {fileID: -6847650116636485085, guid: cbf06c664452e4fcca3d66259ef41e8e, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 82e1ca10d7a284f479e1f8a719bfdc1c, type: 2}
+  m_sharedMaterial: {fileID: -850408798279237684, guid: 82e1ca10d7a284f479e1f8a719bfdc1c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -22009,13 +21483,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40
-  m_fontSizeBase: 40
+  m_fontSize: 46
+  m_fontSizeBase: 46
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535

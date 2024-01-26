@@ -5,6 +5,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog],
 and this project adheres to [Semantic Versioning].
 
+## [0.0.1-dev.20240126] - 2024-01-26
+
+### Added
+
+- Added create game save and delete game save demo functions.
+
+### Changed
+
+- Applied new font to all languages.
+
+### Fixed
+
+- [#5](https://github.com/mrmagic2020/Illumination/issues/5) - Inconsistent font size when no locale is selected.
+
 ## [0.0.1-dev.20240125] - 2024-01-25
 
 ### Changed

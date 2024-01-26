@@ -1,32 +1,3 @@
-%YAML 1.1
-%TAG !u! tag:unity3d.com,2011:
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
-  m_Name: Localization-String-Tables-Chinese (Simplified) (zh-Hans)
-  m_EditorClassIdentifier: 
-  m_GroupName: Localization-String-Tables-Chinese (Simplified) (zh-Hans)
-  m_Data:
-    m_SerializedData: []
-  m_GUID: 07f687068af0d4de88ee566b303e06dc
-  m_SerializeEntries:
-  - m_GUID: 9ce96b785ea1b49828f0923ae68bf1d7
-    m_Address: UI_zh-Hans
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-zh-Hans
-    - Preload
-    FlaggedDuringContentUpdateRestriction: 0
-  m_ReadOnly: 1
-  m_Settings: {fileID: 11400000, guid: b33a5d83b786f4494b4c041197f5092d, type: 2}
-  m_SchemaSet:
-    m_Schemas:
-    - {fileID: 11400000, guid: 2fa3a19e1dfe044b085a761e74cde20b, type: 2}
-    - {fileID: 11400000, guid: cf31a1f0c56084d79bcc49ea5344e513, type: 2}
+version https://git-lfs.github.com/spec/v1
+oid sha256:612466755f89b5ba5d0b940c8ecb4a9c6cb0b516fe02ee1739eadd8bcf56eaa2
+size 1088
