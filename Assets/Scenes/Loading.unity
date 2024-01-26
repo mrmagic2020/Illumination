@@ -288,8 +288,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: cbf06c664452e4fcca3d66259ef41e8e, type: 2}
-  m_sharedMaterial: {fileID: -6847650116636485085, guid: cbf06c664452e4fcca3d66259ef41e8e, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 82e1ca10d7a284f479e1f8a719bfdc1c, type: 2}
+  m_sharedMaterial: {fileID: -850408798279237684, guid: 82e1ca10d7a284f479e1f8a719bfdc1c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -363,6 +363,50 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 186042548}
   m_CullTransparentMesh: 1
+--- !u!1 &387661071
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 387661073}
+  - component: {fileID: 387661072}
+  m_Layer: 0
+  m_Name: Initializer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &387661072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 387661071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba7d3b607f34740d39bac63616af216f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &387661073
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 387661071}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.06666733, y: 1.5364987, z: -2.8746586}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &804378964
 GameObject:
   m_ObjectHideFlags: 0
@@ -407,6 +451,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5c3867ce44e44e9882f20325b79bb86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  initializer: {fileID: 387661072}
   loadingText: {fileID: 186042550}
   sandGlassTransform: {fileID: 96400183}
   MenuSceneAddress: Scene.Menu
@@ -723,6 +768,7 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 2123095046}
+  - {fileID: 387661073}
   - {fileID: 804378965}
   - {fileID: 1738853909}
   - {fileID: 1005135288}

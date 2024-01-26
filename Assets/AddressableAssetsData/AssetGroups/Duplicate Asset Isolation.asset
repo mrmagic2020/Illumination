@@ -1,25 +1,3 @@
-%YAML 1.1
-%TAG !u! tag:unity3d.com,2011:
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
-  m_Name: Duplicate Asset Isolation
-  m_EditorClassIdentifier: 
-  m_GroupName: Duplicate Asset Isolation
-  m_Data:
-    m_SerializedData: []
-  m_GUID: c67786ea28b964225939eb9ca2d0287c
-  m_SerializeEntries: []
-  m_ReadOnly: 0
-  m_Settings: {fileID: 11400000, guid: b33a5d83b786f4494b4c041197f5092d, type: 2}
-  m_SchemaSet:
-    m_Schemas:
-    - {fileID: 11400000, guid: d56016a3850104931bab1e5a96a1a7f3, type: 2}
-    - {fileID: 11400000, guid: e4ef53bb85f794520a17141d4a4f3a29, type: 2}
+version https://git-lfs.github.com/spec/v1
+oid sha256:30550f4dd803674bb87436130202e4963678d43aca79ab7f064c32382d917220
+size 834

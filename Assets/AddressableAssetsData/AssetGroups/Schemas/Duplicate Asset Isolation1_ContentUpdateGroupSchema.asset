@@ -1,16 +1,3 @@
-%YAML 1.1
-%TAG !u! tag:unity3d.com,2011:
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5834b5087d578d24c926ce20cd31e6d6, type: 3}
-  m_Name: Duplicate Asset Isolation1_ContentUpdateGroupSchema
-  m_EditorClassIdentifier: 
-  m_Group: {fileID: 11400000, guid: ca51bcfea7841416988882bb157fe505, type: 2}
-  m_StaticContent: 1
+version https://git-lfs.github.com/spec/v1
+oid sha256:c2d0006dd7bb37c384a74d82d3c3a511d1d479145bd89657586fbd6bac997791
+size 540
