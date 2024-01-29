@@ -74,5 +74,9 @@ crashlytics-build.properties
 # macOS system files
 *.DS_Store
 
-# Other files
+# Crash log files
 *.blob
+
+# Third-party copyright assets and packages
+Assets/HeroEditor
+Assets/Arts/GUI Kit The Stone
