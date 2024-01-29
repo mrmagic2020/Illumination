@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog],
 and this project adheres to [Semantic Versioning].
 
+## [0.0.1-dev.20240129] - 2024-01-29
+
+### Added
+
+- Added ABOUT US settings panel.
+
 ## [0.0.1-dev.20240126] - 2024-01-26
 
 ### Added
@@ -74,5 +80,7 @@ and this project adheres to [Semantic Versioning].
 [semantic versioning]: https://semver.org/spec/v2.0.0.html
 
 <!-- Versions -->
+[0.0.1-dev.20240129]: https://github.com/mrmagic2020/Illumination/releases/v0.0.1-dev.20240129
+[0.0.1-dev.20240126]: https://github.com/mrmagic2020/Illumination/releases/v0.0.1-dev.20240126
+[0.0.1-dev.20240125]: https://github.com/mrmagic2020/Illumination/releases/v0.0.1-dev.20240125
 [0.0.1-dev.20240124]: https://github.com/mrmagic2020/Illumination/releases/v0.0.1-dev.20240124
-[0.0.1-dev.20240116]: https://github.com/mrmagic2020/Illumination/releases/v0.0.1-dev.20240116
