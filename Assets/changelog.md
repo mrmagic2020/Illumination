@@ -86,6 +86,7 @@ and this project adheres to [Semantic Versioning].
 [semantic versioning]: https://semver.org/spec/v2.0.0.html
 
 <!-- Versions -->
+[0.0.1-dev.20240204]: https://github.com/mrmagic2020/Illumination/releases/v0.0.1-dev.20240204
 [0.0.1-dev.20240126]: https://github.com/mrmagic2020/Illumination/releases/v0.0.1-dev.20240126
 [0.0.1-dev.20240125]: https://github.com/mrmagic2020/Illumination/releases/v0.0.1-dev.20240125
 [0.0.1-dev.20240124]: https://github.com/mrmagic2020/Illumination/releases/v0.0.1-dev.20240124
