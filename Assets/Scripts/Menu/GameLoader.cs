@@ -20,8 +20,12 @@ public class GameLoader : MonoBehaviour
     private DirectoryInfo directoryInfo;
     private FileInfo[] files;
 
+    private InputManager inputActions;
+
     void Awake()
     {
+        inputActions = new InputManager();
+
         path = Application.persistentDataPath;
         directoryInfo = new(path);
         files = directoryInfo.GetFiles();
@@ -42,10 +46,25 @@ public class GameLoader : MonoBehaviour
         RefreshList();
     }
 
+    void OnEnable()
+    {
+        inputActions.GameLoader.Enable();
+    }
+
+    void OnDisable()
+    {
+        inputActions.GameLoader.Disable();
+    }
+
     // Update is called once per frame
     void Update()
     {
         SetButtonInteractableState(toggleGroup.AnyTogglesOn());
+        if (inputActions.GameLoader.Delete.ReadValue<float>() > 0)
+        {
+            Debug.Log(inputActions.GameLoader.Delete.ReadValue<float>());
+            OnDeleteRequest();
+        }
     }
 
     private void RefreshList()
@@ -92,6 +111,11 @@ public class GameLoader : MonoBehaviour
 
     public void OnDeleteRequest()
     {
+        if (new List<Toggle>(toggleGroup.ActiveToggles()).Count == 0)
+        {
+            return;
+        }
+
         Toggle toggle = new List<Toggle>(toggleGroup.ActiveToggles())[0];
         string filePath = path + $"/{toggle.GetComponentInChildren<TextMeshProUGUI>().text}";
         if (File.Exists(filePath))

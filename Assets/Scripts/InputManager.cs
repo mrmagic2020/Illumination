@@ -103,6 +103,118 @@ public partial class @InputManager: IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": false
                 }
             ]
+        },
+        {
+            ""name"": ""GameLoader"",
+            ""id"": ""4788b93f-0ff9-4874-bbc2-168fdac976f2"",
+            ""actions"": [
+                {
+                    ""name"": ""Delete"",
+                    ""type"": ""Button"",
+                    ""id"": ""993609e2-dbae-4f48-ba83-526ffd4a2735"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""New"",
+                    ""type"": ""Button"",
+                    ""id"": ""00036851-4866-42d0-a2a2-c4d72d6203bc"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Load"",
+                    ""type"": ""Button"",
+                    ""id"": ""6a72cb77-c028-4769-a5c5-ac9159737ed3"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": """",
+                    ""id"": ""b1b6c186-7b1d-43f4-a0a5-425a3fcfbcc7"",
+                    ""path"": ""<Keyboard>/backspace"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Standard PC"",
+                    ""action"": ""Delete"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""9705c1fa-e57a-4ad5-b967-54c3fea82d4e"",
+                    ""path"": ""<Keyboard>/delete"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Standard PC"",
+                    ""action"": ""Delete"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""212a7c97-9bd0-4fd3-b199-e75b48889e2e"",
+                    ""path"": ""<Keyboard>/d"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Standard PC"",
+                    ""action"": ""Delete"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""d3db06dd-0755-459b-90b6-1aa8abb09e78"",
+                    ""path"": ""<Keyboard>/n"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Standard PC"",
+                    ""action"": ""New"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""412cfd80-e1b5-4970-b0fb-787cc7bb82b8"",
+                    ""path"": ""<Keyboard>/l"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Load"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""4149f6f3-68a4-433a-8322-e8e900e5c92a"",
+                    ""path"": ""<Keyboard>/enter"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Load"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""f1196c19-9d13-4e9c-8d45-bd2da26a5733"",
+                    ""path"": ""<Keyboard>/numpadEnter"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Load"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                }
+            ]
         }
     ],
     ""controlSchemes"": [
@@ -128,6 +240,11 @@ public partial class @InputManager: IInputActionCollection2, IDisposable
         m_Menu = asset.FindActionMap("Menu", throwIfNotFound: true);
         m_Menu_iTopLight = m_Menu.FindAction("iTopLight", throwIfNotFound: true);
         m_Menu_Click = m_Menu.FindAction("Click", throwIfNotFound: true);
+        // GameLoader
+        m_GameLoader = asset.FindActionMap("GameLoader", throwIfNotFound: true);
+        m_GameLoader_Delete = m_GameLoader.FindAction("Delete", throwIfNotFound: true);
+        m_GameLoader_New = m_GameLoader.FindAction("New", throwIfNotFound: true);
+        m_GameLoader_Load = m_GameLoader.FindAction("Load", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -239,6 +356,68 @@ public partial class @InputManager: IInputActionCollection2, IDisposable
         }
     }
     public MenuActions @Menu => new MenuActions(this);
+
+    // GameLoader
+    private readonly InputActionMap m_GameLoader;
+    private List<IGameLoaderActions> m_GameLoaderActionsCallbackInterfaces = new List<IGameLoaderActions>();
+    private readonly InputAction m_GameLoader_Delete;
+    private readonly InputAction m_GameLoader_New;
+    private readonly InputAction m_GameLoader_Load;
+    public struct GameLoaderActions
+    {
+        private @InputManager m_Wrapper;
+        public GameLoaderActions(@InputManager wrapper) { m_Wrapper = wrapper; }
+        public InputAction @Delete => m_Wrapper.m_GameLoader_Delete;
+        public InputAction @New => m_Wrapper.m_GameLoader_New;
+        public InputAction @Load => m_Wrapper.m_GameLoader_Load;
+        public InputActionMap Get() { return m_Wrapper.m_GameLoader; }
+        public void Enable() { Get().Enable(); }
+        public void Disable() { Get().Disable(); }
+        public bool enabled => Get().enabled;
+        public static implicit operator InputActionMap(GameLoaderActions set) { return set.Get(); }
+        public void AddCallbacks(IGameLoaderActions instance)
+        {
+            if (instance == null || m_Wrapper.m_GameLoaderActionsCallbackInterfaces.Contains(instance)) return;
+            m_Wrapper.m_GameLoaderActionsCallbackInterfaces.Add(instance);
+            @Delete.started += instance.OnDelete;
+            @Delete.performed += instance.OnDelete;
+            @Delete.canceled += instance.OnDelete;
+            @New.started += instance.OnNew;
+            @New.performed += instance.OnNew;
+            @New.canceled += instance.OnNew;
+            @Load.started += instance.OnLoad;
+            @Load.performed += instance.OnLoad;
+            @Load.canceled += instance.OnLoad;
+        }
+
+        private void UnregisterCallbacks(IGameLoaderActions instance)
+        {
+            @Delete.started -= instance.OnDelete;
+            @Delete.performed -= instance.OnDelete;
+            @Delete.canceled -= instance.OnDelete;
+            @New.started -= instance.OnNew;
+            @New.performed -= instance.OnNew;
+            @New.canceled -= instance.OnNew;
+            @Load.started -= instance.OnLoad;
+            @Load.performed -= instance.OnLoad;
+            @Load.canceled -= instance.OnLoad;
+        }
+
+        public void RemoveCallbacks(IGameLoaderActions instance)
+        {
+            if (m_Wrapper.m_GameLoaderActionsCallbackInterfaces.Remove(instance))
+                UnregisterCallbacks(instance);
+        }
+
+        public void SetCallbacks(IGameLoaderActions instance)
+        {
+            foreach (var item in m_Wrapper.m_GameLoaderActionsCallbackInterfaces)
+                UnregisterCallbacks(item);
+            m_Wrapper.m_GameLoaderActionsCallbackInterfaces.Clear();
+            AddCallbacks(instance);
+        }
+    }
+    public GameLoaderActions @GameLoader => new GameLoaderActions(this);
     private int m_StandardPCSchemeIndex = -1;
     public InputControlScheme StandardPCScheme
     {
@@ -252,5 +431,11 @@ public partial class @InputManager: IInputActionCollection2, IDisposable
     {
         void OnITopLight(InputAction.CallbackContext context);
         void OnClick(InputAction.CallbackContext context);
+    }
+    public interface IGameLoaderActions
+    {
+        void OnDelete(InputAction.CallbackContext context);
+        void OnNew(InputAction.CallbackContext context);
+        void OnLoad(InputAction.CallbackContext context);
     }
 }

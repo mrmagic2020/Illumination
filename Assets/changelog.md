@@ -5,11 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog],
 and this project adheres to [Semantic Versioning].
 
-## [0.0.1-dev.20240129] - 2024-01-29
+## [0.0.1-dev.20240204] - 2024-02-04
 
 ### Added
 
 - Added ABOUT US settings panel.
+- Added license document in ABOUT US panel.
+- Added keyboard controls to game loading panel.
+
+### Fixed
+
+- Fixed click sound effect for scrollbars.
 
 ## [0.0.1-dev.20240126] - 2024-01-26
 
@@ -80,7 +86,6 @@ and this project adheres to [Semantic Versioning].
 [semantic versioning]: https://semver.org/spec/v2.0.0.html
 
 <!-- Versions -->
-[0.0.1-dev.20240129]: https://github.com/mrmagic2020/Illumination/releases/v0.0.1-dev.20240129
 [0.0.1-dev.20240126]: https://github.com/mrmagic2020/Illumination/releases/v0.0.1-dev.20240126
 [0.0.1-dev.20240125]: https://github.com/mrmagic2020/Illumination/releases/v0.0.1-dev.20240125
 [0.0.1-dev.20240124]: https://github.com/mrmagic2020/Illumination/releases/v0.0.1-dev.20240124
